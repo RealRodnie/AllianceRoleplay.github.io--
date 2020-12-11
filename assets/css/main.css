@@ -1690,10 +1690,16 @@
 	h2 {
 		font-size: 1.75rem;
 	}
+	
+	.inner h2 {
+		font-size: 2rem;
+	}
+	
 
 	h3 {
 		font-size: 1.35rem;
 	}
+	
 
 	h4 {
 		font-size: 1.1rem;
@@ -1838,7 +1844,7 @@
 			}
 
 		.box .content {
-			padding: 2rem;
+			padding: 0.7rem 2rem 2rem 2rem;
 		}
 
 		.box > :last-child,
@@ -1856,7 +1862,7 @@
 		@media screen and (max-width: 736px) {
 
 			.box .content {
-				padding: 1.5rem;
+				padding: 0.3rem 1.5rem 1.5rem 1.5rem;
 			}
 
 		}
@@ -2318,7 +2324,7 @@
 	}
 
 		.image img {
-			border-radius: 50px;
+			border-radius: 100px;
 			display: block;
 			margin:15px 0px 0px 0px;
 		}
@@ -4305,9 +4311,9 @@
 
 	.avatar {
 		  vertical-align: middle;
-		  width: 100px;
-		  height: 100px;
-		  border-radius: 50%;
+		  width: 150px;
+		  height: 150px;
+		  border-radius: 80%;
 		  position:Relative;
 	}
 	.fit {
