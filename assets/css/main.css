@@ -3094,11 +3094,15 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
 			background-size: cover;
+			background-image: url(../../images/slide03.png);
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
+		}
+
+		.wrapper.style2.fullbg1 {
+			background-color: #090909;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
@@ -3412,6 +3416,7 @@
 		-webkit-align-items: stretch;
 		-ms-align-items: stretch;
 		align-items: stretch;
+		z-index: 1;
 	}
 
 		.grid-style > * {
@@ -4280,6 +4285,10 @@
 		padding: 4rem 0 2rem 0 ;
 		background: #000;
 		text-align: center;
+		background-image: url(../../images/slide03.png);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
 	}
 
 		#footer a {
@@ -4317,7 +4326,18 @@
 		  position:Relative;
 	}
 	.fit {
-		width:100%;
 		align-items: center;
 		justify-content: center;
 	}
+
+
+/* Scrollbar Changes */
+
+::-webkit-scrollbar {
+	width: 10px;
+	background:black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+	  background:white;
+  }
