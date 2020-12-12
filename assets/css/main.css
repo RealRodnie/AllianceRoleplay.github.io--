@@ -1812,7 +1812,7 @@
 		margin-bottom: 2rem;
 		background: #FFF;
 	}
-	
+
 	.box.changedbox{
 		background: rgba(224,224,224, 0.8);
 	}
@@ -3106,7 +3106,7 @@
 
 		.wrapper.style2.fullbg1 {
 			background-size: cover;
-			background-image: url(../../images/slide04.png);
+			background-image: url(../../images/slide04.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
