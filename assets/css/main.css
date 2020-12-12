@@ -4285,6 +4285,8 @@
 		padding: 4rem 0 2rem 0 ;
 		background: #000;
 		text-align: center;
+	}
+	#footer.store{
 		background-image: url(../../images/slide03.png);
 		background-size: cover;
 		background-attachment: fixed;
