@@ -1810,6 +1810,10 @@
 
 	.box {
 		margin-bottom: 2rem;
+		background: #FFF;
+	}
+	
+	.box.changedbox{
 		background: rgba(200,54,54, 0.8);
 	}
 
