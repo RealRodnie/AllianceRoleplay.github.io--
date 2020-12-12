@@ -1810,7 +1810,7 @@
 
 	.box {
 		margin-bottom: 2rem;
-		background: #FFF;
+		background: rgba(200,54,54, 0.8);
 	}
 
 		.box .image.fit {
@@ -2969,7 +2969,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #8a4680;
+					background-color: #000;
 					color: #ffffff !important;
 				}
 
@@ -2978,7 +2978,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #9b4f90;
+						background-color: #333;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -3095,14 +3095,17 @@
 			background-color: #000;
 			color: #bfbfbf;
 			background-size: cover;
-			background-image: url(../../images/slide03.png);
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
 		}
 
 		.wrapper.style2.fullbg1 {
-			background-color: #090909;
+			background-size: cover;
+			background-image: url(../../images/slide04.png);
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
@@ -4286,13 +4289,6 @@
 		background: #000;
 		text-align: center;
 	}
-	#footer.store{
-		background-image: url(../../images/slide03.png);
-		background-size: cover;
-		background-attachment: fixed;
-		background-position: center;
-	}
-
 		#footer a {
 			color: rgba(255, 255, 255, 0.5);
 		}
