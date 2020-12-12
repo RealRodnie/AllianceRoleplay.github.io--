@@ -1813,8 +1813,12 @@
 		background: #FFF;
 	}
 
-	.box.changedbox{
+	.box.changedbox {
 		background: rgba(224,224,224, 0.8);
+	}
+
+	.textone {
+		color:black;
 	}
 
 		.box .image.fit {
