@@ -311,9 +311,9 @@ var settings = {
 
 //Donation
 
-let title = "Donation Goal for Vip Giveaway";
-let currentDonations = 25;
-let currentGoal = 25;
+let title = "Donation Goal for a new dedicated server";
+let currentDonations = 0;
+let currentGoal = 50;
 let percentageAchieved = (currentDonations / currentGoal) * 100;
 
 $('.goal-cont__title').html(title);
