@@ -308,3 +308,18 @@ var settings = {
 	});
 
 })(jQuery);
+
+//Donation
+
+let title = "Donation Goal for Vip Giveaway";
+let currentDonations = 25;
+let currentGoal = 25;
+let percentageAchieved = (currentDonations / currentGoal) * 100;
+
+$('.goal-cont__title').html(title);
+$('.goal-bar__current').text(currentDonations);
+$('.goal-bar__total').text(currentGoal);
+$('.goal-cont__progress').css({width: percentageAchieved + "%"});
+
+$('.goal-bar__current').text(currentDonations);
+
