@@ -312,7 +312,7 @@ var settings = {
 //Donation
 
 let title = "Donation Goal for a new dedicated server";
-let currentDonations = 0;
+let currentDonations = 22;
 let currentGoal = 50;
 let percentageAchieved = (currentDonations / currentGoal) * 100;
 
