@@ -311,9 +311,9 @@ var settings = {
 
 //Donation
 
-let title = "Donation Goal for a new dedicated server";
-let currentDonations = 177;
-let currentGoal = 50;
+let title = "Webserver (FastDL)";
+let currentDonations = 0;
+let currentGoal = 15;
 let percentageAchieved = (currentDonations / currentGoal) * 100;
 
 $('.goal-cont__title').html(title);
